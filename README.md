@@ -18,7 +18,7 @@ Verified SAT-Based AI Planning
 
     cd afp_download_path/thys/Verified_SAT_Based_AI_Planning
 
-    isabelle_download_directory/bin/isabelle build -cv -d . -o document=pdf -o document_output=. Verified_SAT_Based_AI_Planning
+    isabelle_download_directory/bin/isabelle build -ecv -d . -o document=pdf -o document_output=. Verified_SAT_Based_AI_Planning
 
   This will invoke Isabelle to check all proofs and re-generate the
   exported code, which is written to <code> afp_download_path/thys/AI_Planning_Languages_Semantics/code/encode_problem.sml</code> and  <code> afp_download_path/thys/AI_Planning_Languages_Semantics/code/decode_model.sml</code>.
