@@ -39,3 +39,9 @@ Verified SAT-Based AI Planning
     The first argument is the horizon, the second is the problem to
     solve which should be in Fast Downward's translator formtat, and
     the third is a path to a SAT solver executable.
+
+
+Developers
+==========
+
+Mohammad Abdulaziz and Friedrich Kurz
